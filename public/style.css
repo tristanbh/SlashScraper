@@ -1,0 +1,96 @@
+/*
+Font: 		Mont
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T8777/mont
+Foundry: 	Fontfabric
+Foundry: 	https://www.youworkforthem.com/designer/105/fontfabric
+Copyright:	Modern and elegant sans serif font family.
+Version: 	17
+Created:	February 01, 2018
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+@font-face {
+	font-family: 'Mont-Bold';
+	src: url('/font/mont-bold.eot');
+	src: url('/font/mont-bold.eot?#iefix') format('embedded-opentype'),
+             url('/font/mont-bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Mont-Book';
+	src: url('/font/mont-book.eot');
+	src: url('/font/mont-book.eot?#iefix') format('embedded-opentype'),
+             url('font/mont-book.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Mont-Light';
+	src: url('/font/mont-light.eot');
+	src: url('/font/mont-light.eot?#iefix') format('embedded-opentype'),
+             url('/font/mont-light.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    font-family: 'Mont-Light', 'San-Serif';
+    color: rgb(54, 47, 39)
+}
+.header{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#headerOne {
+    font-family: 'Mont-Bold', 'San-Serif';
+    font-size: 84px;
+    line-height: 20px;
+}
+#headerTwo {
+    font-family: 'Mont-Book', 'San-Serif';
+    font-size: 84px;
+    margin-left: 40px;
+}
+.subHeader {
+    margin-top: 76px;
+}
+.panel-title {
+    font-family: 'Mont-Light', 'San-Serif';
+    font-size: 24px;
+    line-height: 10px;
+    margin-left: 10px;
+    /* text-align: right; */
+}
+.panel-body { 
+    border-top: 4px solid #7cc2d0;
+}
+
+.article-title, .article-link {
+    /* font-family: 'Mont-Light', 'San-Serif'; */
+    list-style-type: none;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #7cc2d0;
+    margin: 20px;
+    cursor: pointer;
+}
+#notes {
+    margin-top: 20px;
+}
+.panel-subtitle {
+    border-bottom: 4px solid #7cc2d0;
+}
+.note-comment, .note-title {
+    list-style-type: none;
+    font-size: 18px;
+    border: none;
+    margin: 20px;
+}
+.note-comment {
+    border-bottom: 2px solid #7cc2d0;
+}

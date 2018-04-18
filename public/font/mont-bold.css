@@ -1,0 +1,41 @@
+/*
+Font: 		Mont
+Style: 		Bold
+URL: 		https://www.youworkforthem.com/font/T8777/mont
+Foundry: 	Fontfabric
+Foundry: 	https://www.youworkforthem.com/designer/105/fontfabric
+Copyright:	Modern and elegant sans serif font family.
+Version: 	17
+Created:	February 01, 2018
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Mont-Bold';
+	src: url('mont-bold.eot');
+	src: url('mont-bold.eot?#iefix') format('embedded-opentype'),
+             url('mont-bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Mont-Book';
+	src: url('mont-book.eot');
+	src: url('mont-book.eot?#iefix') format('embedded-opentype'),
+             url('mont-book.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Mont-Light';
+	src: url('mont-light.eot');
+	src: url('mont-light.eot?#iefix') format('embedded-opentype'),
+             url('mont-light.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
