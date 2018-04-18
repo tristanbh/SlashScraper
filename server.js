@@ -11,9 +11,13 @@ var cheerio = require("cheerio");
 var axios = require("axios");
 
 // Connect to the Mongo DB
-mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/slashscraper", {
-});
+var databaseUri = 'mongodb://localhost/slashscraper';
+
+    if (process.env.MONGODB_URI) {
+        mongoose.connect(process.env.MONGODB_URI);
+    } else {
+        mongoose.connect(databaseUri);
+    }
 
 // initialize app
 var app = express();
